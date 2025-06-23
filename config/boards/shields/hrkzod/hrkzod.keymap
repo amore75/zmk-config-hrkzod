@@ -42,11 +42,11 @@
 
         default_layer {
             bindings = <
-&control_panel_macro	&kp ESC     &kp GRAVE	&kp N1    &kp N2   &kp N3    &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9     &kp N0    &kp MINUS &kp EQUAL &kp DEL   &kp BSPC  &kp BSPC
-&dev_manager_macro  &mo 1       &kp TAB   	&kp Q     &kp W    &kp E     &kp R     &kp T     &kp Y      &kp T      &kp Y     &kp U      &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH
-&kp F2		        &kp K_UNDO  &kp CAPS  	&kp A     &kp S    &kp D     &kp F     &kp G     &kp H      &kp G      &kp H     &kp J      &kp K     &kp L     &kp SEMI  &kp APOS  &kp ENTER &kp ENTER
-&kp F3		        &kp LSHFT   &kp LSHFT 	&kp Z     &kp X    &kp C     &kp V     &kp B     &kp N      &kp B      &kp N     &kp M      &kp COMMA &kp DOT   &kp SLASH &kp RSHFT &kp UP    &kp PSCRN
-&kp F4		        &kp K_COPY  &kp K_PASTE &LCTRL 	  &kp LALT &kp DEL   &kp ENTER &kp SPACE &kp SPACE  &kp SPACE  &kp SPACE &kp SPACE  &kp TAB   &kp RALT  &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
+&control_panel_macro	&kp ESC     &kp GRAVE	&kp N1    &kp N2   &kp N3    &kp N4    &kp N5    &kp N6     	&kp N7     &kp N8    &kp N9     &kp N0    &kp MINUS &kp EQUAL &kp DEL   &kp BSPC  &kp BSPC
+&dev_manager_macro  	&mo 1       &kp TAB   	&kp Q     &kp W    &kp E     &kp R     &kp T     &kp Y      	&kp T      &kp Y     &kp U      &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH
+&kp F2		        	&kp K_UNDO  &kp CAPS  	&kp A     &kp S    &kp D     &kp F     &kp G     &kp H      	&kp G      &kp H     &kp J      &kp K     &kp L     &kp SEMI  &kp APOS  &kp ENTER &kp ENTER
+&kp F3		        	&kp LSHFT   &kp LSHFT 	&kp Z     &kp X    &kp C     &kp V     &kp B     &kp N      	&kp B      &kp N     &kp M      &kp COMMA &kp DOT   &kp SLASH &kp RSHFT &kp UP    &kp PSCRN
+&kp F4		        	&kp K_COPY  &kp K_PASTE &LCTRL 	  &kp LALT &kp DEL   &kp ENTER &kp SPACE &kp SPACE  	&kp SPACE  &kp SPACE &kp SPACE  &kp TAB   &kp RALT  &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
